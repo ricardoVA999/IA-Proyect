@@ -57,7 +57,7 @@ class MainActivity : AppCompatActivity() {
 
             val pred = getPred(scores)
 
-            text.setText(pred)
+            text.setText(pred.capitalize())
 
 // Releases model resources if no longer used.
             model.close()
@@ -76,7 +76,7 @@ class MainActivity : AppCompatActivity() {
     fun getPred(scores: MutableList<Category>):String{
 
         var pred = ""
-        var max : Float = 0.0f
+        var max = 0.0f
 
         for(i in scores){
             if(max<i.score){
