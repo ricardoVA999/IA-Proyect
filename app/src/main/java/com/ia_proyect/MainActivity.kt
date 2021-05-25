@@ -20,6 +20,7 @@ import org.tensorflow.lite.support.label.Category
 // Inteligencia Artificial
 // Ricardo Antonio Valenzuela Avila
 // Maria Jose Castro
+// Proyecto final
 
 // Funciones para la pantalla principal de la aplicacion
 class MainActivity : AppCompatActivity() {
